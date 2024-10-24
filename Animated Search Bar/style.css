@@ -37,6 +37,7 @@ body{
     width: 30px;
     position: absolute;
     right: 10px;
+    cursor: pointer;
     transition: width 0.4s;
     transition-delay: 1s;
 }
