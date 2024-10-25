@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    font-family: 'Kapiler';
+}
+body{
+    background: linear-gradient(45deg, #08001f, rgba(88, 0, 0, 0.747));
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
