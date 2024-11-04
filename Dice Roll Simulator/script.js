@@ -15,7 +15,7 @@ function updateRollHistory(){
     rollHistory.innerHTML = ""
     for (let i = 0; i < historyList.length; i++){
         const listItem = document.createElement("li")
-        listItem.innerHTML = `Roll${i +1}: <span>${getDiceFace(historyList[i])}</span>`
+        listItem.innerHTML = `Roll ${i +1}: <span>${getDiceFace(historyList[i])}</span>`
         rollHistory.appendChild(listItem)
     }
 }
