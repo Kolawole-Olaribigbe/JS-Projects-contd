@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Induction';
+    background: #0d090c;
+    color: #7b7f86;
+}
+.container{
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+.counter{
+    font-size: 40px;
+}
+.loading-bar-back{
+    position: absolute;
+    height: 8px;
+    background: #c7d2ab;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+}
+.loading-bar-front{
+    position: absolute;
+    height: 8px;
+    background: #ad4038;
+    width: 0%;
+    border-radius: 2px;
+    border: none;
+}
