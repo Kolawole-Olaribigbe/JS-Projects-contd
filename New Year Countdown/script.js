@@ -27,5 +27,4 @@ function updateCountdown(){
     secondCount.innerText = s
 
     setTimeout(updateCountdown, 1000)
-    
 }
