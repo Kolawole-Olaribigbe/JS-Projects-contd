@@ -26,17 +26,14 @@ function startTimer() {
             updateTimer()
         }
     }, 1000)
-    
 }
 function stopTimer() {
     clearInterval(interval)
-    
 }
 function resetTimer() {
     clearInterval(interval)
     timeLeft = 1500
     updateTimer()
-    
 }
 startBtn.addEventListener("click", startTimer)
 stopBtn.addEventListener("click", stopTimer)
