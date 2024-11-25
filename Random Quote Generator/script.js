@@ -17,6 +17,7 @@ async function getQuote() {
         btnComp.disabled = true
         quoteComp.innerText = "Generating quote..."
         authorComp.innerText = "Getting author..."
+        
         const response = await fetch(apiURL, options)
         const data = await response.json()
     
