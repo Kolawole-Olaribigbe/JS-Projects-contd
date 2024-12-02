@@ -35,6 +35,7 @@ function updateStepProgress() {
         }
     })
     const stepsChecked = document.querySelectorAll(".checked")
+    
     progressBar.style.width = ((stepsChecked.length - 1) / (stepsComp.length - 1)) * 100 + "%"
 
     if (currentChecked === 1) {
