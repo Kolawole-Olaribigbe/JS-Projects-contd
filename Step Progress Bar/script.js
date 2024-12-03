@@ -2,7 +2,7 @@ const nextBtn = document.getElementById("next")
 const prevBtn = document.getElementById("prev")
 const stepsComp = document.querySelectorAll(".step")
 const progressBar = document.querySelector(".progress-bar-front")
-console.log(stepsComp);
+
 
 let currentChecked = 1
 
