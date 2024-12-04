@@ -10,5 +10,4 @@ window.addEventListener("scroll", () => {
     } else {
         navBar.classList.remove("active")
     }
-    
 })
