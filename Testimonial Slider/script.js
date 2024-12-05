@@ -11,7 +11,7 @@ const testimonials = [
     },
     {
         name: "Muroga Hyoma",
-        photoUrl: "https://static.wikia.nocookie.net/dubbing9585/images/2/2d/Hyouma.jpg/revision/latest?cb=20190418233414",
+        photoUrl: "https://myanimeshelf.com//eva2/upload/9430a545eff4883babb5a760c132fb2a/1.jpg",
         text: "The facilities at Zephyr Hospital are top-notch, with state-of-the-art equipment and technology. I felt confident and at ease knowing that I was in good hands. The doctors and nurses were extremely knowledgeable and attentive, making sure to address all of my concerns and answer any questions I had. But what truly sets Zephyr Hospital apart is the level of care and compassion they provide. It's clear that the staff genuinely cares about their patients and goes above and beyond to ensure their comfort and well-being."
     },
 ] 
