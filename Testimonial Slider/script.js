@@ -2,7 +2,7 @@ const testimonials = [
     {
         name: "Akeginu",
         photoUrl: "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/910243fa-d858-4bee-b1be-a3d37f1bde6d/width=1200/910243fa-d858-4bee-b1be-a3d37f1bde6d.jpeg",
-        text: "I have been using Illume for my child's education and I am extremely impressed with the platform. It is very easy to understand and navigate, making it perfect for young children. The user-friendly interface has made learning a fun and enjoyable experience for my child. The interactive lessons and activities have kept my child engaged and motivated to learn. I highly recommend Illume to any parent looking for a comprehensive and child-friendly education platform. Thank you, Illume, for providing such a fantastic learning experience for my child!"
+        text: "I have been using Illume for my child's education and I am extremely impressed with the platform. It is very easy to understand and navigate, making it perfect for young children. The user-friendly interface has made learning a fun and enjoyable experience for my child. The interactive lessons and activities have kept my child engaged and motivated to learn. I highly recommend Illume to any parent looking for a comprehensive and child-friendly education platform."
     },
     {
         name: "Gennosuke",
