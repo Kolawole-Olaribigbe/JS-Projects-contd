@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Albert Sans';
+}
+.testimonial-container{
+    width: 500px;
+    height: 200px;
+    background: #0f6a9b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-width: 400px;
+    padding: 40px 20px;
+    margin: 5px;
+    color: #fff;
+    position: relative;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+}
+.username{
+    font-size: 14px;
+    font-weight: 100;
+}
