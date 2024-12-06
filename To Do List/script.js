@@ -5,7 +5,7 @@ const ulComp = document.querySelector(".list")
 let list = JSON.parse(localStorage.getItem("list"))
 
 list.forEach(task => {
-    toDoList()
+    toDoList(task)
 })
 formComp.addEventListener("submit", (event) => {
     event.preventDefault()
