@@ -4,6 +4,11 @@ body{
     justify-content: center;
     background: #e2ee9d;
 }
+h1{
+    margin: 100px;
+    font-family: 'Raleway';
+    color: #5eb7a3;
+}
 .form{
     position: absolute;
     top: 30%;
