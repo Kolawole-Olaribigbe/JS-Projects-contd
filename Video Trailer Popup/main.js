@@ -6,7 +6,7 @@ const videoComp = document.querySelector("video")
 btnComp.addEventListener("click", () => {
     trailerContainer.classList.remove("active")
 })
-closeIcon.addEventListener("click", () =>{
+closeIcon.addEventListener("click", () => {
     trailerContainer.classList.add("active")
     videoComp.pause()
     videoComp.currentTime = 0
