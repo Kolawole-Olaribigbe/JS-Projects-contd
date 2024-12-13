@@ -1,3 +1,4 @@
+// API key
 const apiKey = "ebf79a078f2a9eae6a08a925410d1b1e"
 //DOM manipulation
 const weatherDataComp = document.getElementById("weather-data")
