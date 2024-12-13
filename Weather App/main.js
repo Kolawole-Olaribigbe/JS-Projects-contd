@@ -33,6 +33,7 @@ async function getWeatherData(cityValue){
         weatherDataComp.querySelector(".temperature").textContent = `${temperature}°C`
         weatherDataComp.querySelector(".description").textContent = description
         weatherDataComp.querySelector(".details").innerHTML = details.map((detail) => `<div>${detail}</div>`).join("")
+    //Throws error
     } catch (error) {
         weatherDataComp.querySelector(".icon").innerHTML = ""
         weatherDataComp.querySelector(".temperature").textContent = ""
