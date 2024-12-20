@@ -3,8 +3,8 @@ const fullDateComp = document.querySelector(".date p")
 const daysComp = document.querySelector(".days")
 
 const monthIndex = new Date().getMonth()
-const lastDay = new Date(new Date().getFullYear(), monthIndex + 11, 0).getDate()
-const firstDay = new Date(new Date().getFullYear(), monthIndex, 11).getDay() - 1
+const lastDay = new Date(new Date().getFullYear(), monthIndex + 1, 0).getDate()
+const firstDay = new Date(new Date().getFullYear(), monthIndex, 1).getDay() - 1
 
 const months = [
     "January",
