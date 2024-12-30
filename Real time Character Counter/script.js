@@ -9,5 +9,5 @@ updateCounter()
 
 function updateCounter() {
     totalCounter.innerText = textArea.value.length
-    remainingChar.innerHTML = textArea.getAttribute("maxLength") - textArea.value.length
+    remainingChar.innerText = textArea.getAttribute("maxLength") - textArea.value.length
 }
